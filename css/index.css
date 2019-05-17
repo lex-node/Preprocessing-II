@@ -171,9 +171,10 @@ img {
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-between;
   align-items: center;
   white-space: nowrap;
+  padding: 0px 5%;
 }
 a {
   text-decoration: none;
@@ -200,6 +201,7 @@ a {
 .home header .nav-row {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2.95%;
 }
 .home .content-section {
   margin: 30px 0;
