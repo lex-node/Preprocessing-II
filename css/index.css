@@ -168,6 +168,17 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.btn {
+  display: block;
+  background-color: #17A2B8;
+  margin: 0 10px 20px;
+  cursor: pointer;
+  width: 200px;
+  height: 45px;
+  font-size: 2rem;
+  color: white;
+  border-radius: 10px;
+}
 nav {
   display: flex;
   flex-direction: row;
