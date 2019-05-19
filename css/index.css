@@ -244,7 +244,8 @@ a {
   .home .content-section .img-content {
     flex-direction: column;
     align-items: center;
-    width: 75%;
+    width: 100%;
+    padding-left: 0%;
   }
 }
 .home .content-section .img-content img {
@@ -253,8 +254,9 @@ a {
 }
 @media (max-width: 500px) {
   .home .content-section .img-content img {
-    align-items: center;
-    width: 75%;
+    display: block;
+    width: 100%;
+    margin: 0px auto;
   }
 }
 .home .inverse-content {
