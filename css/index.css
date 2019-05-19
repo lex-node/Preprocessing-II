@@ -249,6 +249,7 @@ a {
 }
 .home .content-section .img-content img {
   border-radius: 10px;
+  margin: 0px auto;
 }
 .home .inverse-content {
   padding-bottom: 30px;
